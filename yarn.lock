@@ -1774,10 +1774,10 @@ cornerstone-tools@^4.20.1:
     "@babel/runtime" "7.1.2"
     cornerstone-math "0.1.7"
 
-cornerstone-wado-image-loader@^3.1.0:
-  version "3.3.0"
-  resolved "https://registry.yarnpkg.com/cornerstone-wado-image-loader/-/cornerstone-wado-image-loader-3.3.0.tgz#1689c4d8ef74554c923c3e421000a4560a4634b3"
-  integrity sha512-XQPD/gRgKFYBv7WzFXHYVUyynMHS8Kym7iscR4XfRmOpJ46lcsq1096ORubJTnO1XFee2Tv4L7RqUTgQp0orgA==
+cornerstone-wado-image-loader@^3.3.1:
+  version "3.3.1"
+  resolved "https://registry.yarnpkg.com/cornerstone-wado-image-loader/-/cornerstone-wado-image-loader-3.3.1.tgz#2d37a4278f087f9ea66b98dd384c3584bd4f202b"
+  integrity sha512-XckOmywvAmFz61G5/FSk+Thd051sU2peiT/EA1nFQ4uatMKKO6xFuOYcr8qB6pmeiQlUnuOVdX5l7GmYbqfT5w==
   dependencies:
     dicom-parser "^1.8.3"
     pako "^1.0.10"

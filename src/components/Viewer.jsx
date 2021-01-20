@@ -13,6 +13,8 @@ const { setStudyData } = redux.actions;
 const { studyMetadataManager } = utils;
 const { OHIFStudyMetadata } = metadata;
 
+const SER_IND = 0;
+
 const Viewer = () => {
   const dispatch = useDispatch();
   const [studyMeta, setStudyMeta] = useState({});
@@ -69,7 +71,7 @@ const Viewer = () => {
       dispatch(setStudies([study]));
       setStudyMeta(study);
 
-      const innerSelectedSeries = study.series[0];
+      const innerSelectedSeries = study.series[SER_IND];
 
       // --- Load first series to viewport ---
       dispatch({
@@ -103,7 +105,7 @@ const Viewer = () => {
     PatientID,
   } = studyMeta;
 
-  const selectedSeries = series[0] || {};
+  const selectedSeries = series[SER_IND] || {};
   const {
     SeriesInstanceUID,
   } = selectedSeries;
