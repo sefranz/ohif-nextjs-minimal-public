@@ -48,7 +48,7 @@ export default function init() {
   // Init app
   const commandsManagerConfig = {
     getAppState: () => store.getState(),
-    getActiveContexts: () => { },
+    getActiveContexts: () => [],
   };
 
   // Init managers
